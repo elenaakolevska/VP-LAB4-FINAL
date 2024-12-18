@@ -47,12 +47,15 @@ public class Event {
 
    }
 
-//   public void addComment(String comment) {
-//      this.comments.add(comment);
-//   }
-//
-//
-//   public List<String> getComments() {
-//      return comments;
-//   }
 }
+
+
+/*
+INSERT INTO EVENT (POPULARITY_SCORE, TICKET_COUNT, LOCATION_ID, DESCRIPTION, NAME) VALUES
+(8.5, 100, 1, 'An evening of classical music by the lake', 'Lake Symphony'),
+(7.8, 150, 2, 'Tech conference featuring top industry speakers', 'Tech Innovators Summit'),
+(9.2, 80, 3, 'A delightful evening of jazz performances', 'Jazz Under the Stars'),
+(8.0, 120, 4, 'Stand-up comedy show with renowned comedians', 'Laugh Out Loud Night'),
+(9.5, 50, 5, 'Art exhibition showcasing local artists', 'Expressions in Art');
+
+ */
